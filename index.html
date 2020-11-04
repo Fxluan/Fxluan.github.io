@@ -16,12 +16,12 @@
                 var menu = $(this).attr('id');
                 if (menu == "Home") {
                     $('#content').load('pages/home/index.html');
-                } else if (menu == "About me") {
+                } else if (menu == "Aboutme") {
                     $('#content').load('pages/aboutme/index.html');
                 }
             });
 
-            $("#content").load("pages/home/index.html");
+            $("#content").load("pages/aboutme/index.html");
 
         });
     </script>
@@ -37,10 +37,10 @@
             </div>
             <div class="col-sm-2">
                 <div class="row">
-                    <a href="" class="mr-2 klik_menu" id="Home">
+                    <a href="" class="klik_menu mr-2 " id="Home">
                         <p>Home</p>
                     </a>
-                    <a href="" class="klik_menu" id="About me">
+                    <a href="" class="klik_menu" id="Aboutme">
                         <p>About me</p>
                     </a>
                 </div>
