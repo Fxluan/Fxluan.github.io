@@ -12,8 +12,13 @@
     <!-- MAIN MENU -->
     <script>
         $(document).ready(function () {
-            $("button").click(function () {
+            $("#content").load("pages/home/index.html");
+
+            $("#Home").click(function () {
                 $("#content").load("pages/home/index.html");
+            });
+            $("#Home").click(function () {
+                $("#About me").load("pages/aboutme/index.html");
             });
         });
     </script>
@@ -26,10 +31,21 @@
         <button type="button">Load Content</button>
         <div class="row">
             <div class="col-sm">
+                ini Titel
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <p id="Home">Home</p>
+                    <p id="About me">About me</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
                 ini Right Bar
             </div>
             <div class="col-sm" id="content">
-                ini kontent
+
             </div>
         </div>
     </div>
