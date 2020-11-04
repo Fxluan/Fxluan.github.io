@@ -14,14 +14,14 @@
             $('.klik_menu').click(function() {
                 var menu = $(this).attr('id');
                 if (menu == "Home") {
-                    $('#content').load('pages/home/index.php');
+                    $('#content').load('pages/home/index.html');
                 } else if (menu == "blog") {
-                    $('#content').load('pages/blog/index.php');
+                    $('#content').load('pages/blog/index.html');
                 }
             });
 
-            $("#sidebar").load("pages/sidebar/index.php");
-            $("#content").load("pages/home/index.php");
+            $("#sidebar").load("pages/sidebar/index.html");
+            $("#content").load("pages/home/index.html");
         });
     </script>
 
