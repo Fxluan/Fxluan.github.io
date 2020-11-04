@@ -15,9 +15,9 @@
             $('.klik_menu').click(function () {
                 var menu = $(this).attr('id');
                 if (menu == "Home") {
-                    $('.badan').load('pages/home/index.html');
+                    $('#content').load('pages/home/index.html');
                 } else if (menu == "About me") {
-                    $('.badan').load('pages/aboutme/index.html');
+                    $('#content').load('pages/aboutme/index.html');
                 }
             });
 
